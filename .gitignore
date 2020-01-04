@@ -1,2 +1,7 @@
 fetchrobotics.code-workspace
 *.pyc
+gazebo/*
+ros_ws/build/*
+ros_ws/devel/*
+ros_ws/.catkin_tools/*
+ros_ws/logs/*
