@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>fetch_gazebo</name>
+  <name>sim_fetch_gazebo</name>
   <version>0.0.1</version>
   <description>
     Gazebo package for Fetch Robotics Simulation.
