@@ -21,3 +21,13 @@ $ catkin build
     1. Run environment: `roslaunch sim_fetch_gazebo playground.launch`
     2. Load demo launch file: `roslaunch fetch_gazebo_demo demo.launch`
     3. Run Python file: `python2 demo.py`
+3. Control with keyboard
+    1. Run environment: `roslaunch sim_fetch_gazebo simulation.launch`
+    2. Run Teleop keyboard: `rosrun teleop_twist_keyboard teleop_twist_keyboard.py`
+4. Manipulation of Robot
+    1. Preconfigured with Rviz `roslaunch fetch_moveit_config demo.launch`
+    2. Control with python
+        1. Start simulation: `roslaunch sim_fetch_gazebo simulation.launch`
+        2. Run python code: `python robot_motion.py`
+
+    
